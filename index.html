@@ -1,13 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Peyton's Portfolio</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <canvas id="bg"></canvas>
+    <main>
+      <header>
+        <h1><span class="scramble" data-text="Name: Peyton Fisher.">Name: Peyton Fisher.</span></h1>
+        <p><span class="scramble" data-text="Location: ...Somewhere in space.">Location: ...Somewhere in space.</span></p>
+        <p><span class="scramble" data-text="Mission: To find a way back home.">Mission: To find a way back home.</span></p>
+      </header>      
+
+      <section class="left">
+        <h2><span class="scramble-scroll" data-text="Skills to accomplish mission:">Skills to accomplish mission:</span></h2>
+        <ul class="skills">
+          <li>
+            <p><span class="scramble-scroll" data-text="JavaScript">JavaScript</span></p>
+          </li>
+          <li>
+            <p><span class="scramble-scroll" data-text="Node.js">Node.js</span></p>
+          </li>
+          <li>
+            <p><span class="scramble-scroll" data-text="Three.js">Three.js</span></p>
+          </li>
+          <li>
+            <p><span class="scramble-scroll" data-text="React">React</span></p>
+          </li>
+          <li>
+            <p><span class="scramble-scroll" data-text="HTML">HTML</span></p>
+          </li>
+          <li>
+            <p><span class="scramble-scroll" data-text="CSS">CSS</span></p>
+          </li>
+          <li>
+            <p><span class="scramble-scroll" data-text="MongoDB">MongoDB</span></p>
+          </li>
+        </ul>  
+      </section>
+
+      <blockquote>
+        <p><span class="scramble-scroll" data-text="Earth located.">Earth located.</span></p>
+      </blockquote>
+
+      <section class="end">
+        <blockquote>
+          <h2><span class="scramble-scroll" data-text="New mission: Explore the unknown.">New mission: Explore the unknown.</span></h2>
+          <p><span class="scramble-scroll" data-text="Let's keep in contact on this journey: pmnf0713@gmail.com.">Let's keep in contact on this journey: pmnf0713@gmail.com.</span></p>
+        </blockquote>
+      </section>
+    </main>
+    <script type="module" src="src/main.js"></script>
   </body>
 </html>
